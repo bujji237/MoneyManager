@@ -1,0 +1,17 @@
+.transactions-list-item {
+  display: flex;
+  list-style-type: none;
+  border-top: 1px solid #7e858e;
+}
+.columniteminfo {
+  font-size: 10px;
+}
+.delete-img {
+  width: 20px;
+  height: 20px;
+}
+.delete-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}

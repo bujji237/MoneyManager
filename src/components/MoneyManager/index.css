@@ -1,0 +1,147 @@
+.app-container {
+  padding: 20px;
+}
+.header-section-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.header-section-heading {
+  color: #475569;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.header-section-info {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+span {
+  color: #0b69ff;
+}
+.form-and-history-container {
+  margin-top: 20px;
+}
+.submit-form {
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.form-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+}
+.input-field {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.submit-btn {
+  width: 70px;
+  height: 30px;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.transactions-list-header {
+  display: flex;
+  list-style-type: none;
+  border-top: 1px solid #cbd5e1;
+}
+.columnheader {
+  margin-right: 10px;
+}
+.history-container {
+  border: 1px solid #7e858e;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.history-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+}
+.transactions-list {
+  padding: 0px;
+  border: 1px solid #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 50px;
+  }
+  .header-section-container {
+    height: 150px;
+    border-radius: 20px;
+  }
+  .header-section-heading {
+    font-size: 35px;
+  }
+  .header-section-info {
+    font-size: 25px;
+  }
+  .form-heading {
+    font-size: 30px;
+  }
+  .input-field {
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  label {
+    font-size: 20px;
+  }
+  .submit-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+  }
+  .form-and-history-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .history-container {
+    margin-top: 20px;
+    width: 45%;
+  }
+  .history-heading {
+    font-size: 30px;
+  }
+  .submit-form {
+    width: 45%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .transactions-list-header-heading {
+    font-size: 30px;
+  }
+}
